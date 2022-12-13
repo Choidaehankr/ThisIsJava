@@ -11,7 +11,6 @@ public class BeepPrintExample1 {
             try {
                 Thread.sleep(500);
             } catch (Exception e) {
-                System.out.println("e.getMessage() = " + e.getMessage());
             }
         }
         for (int i = 0; i < 5; i++) {
@@ -19,7 +18,6 @@ public class BeepPrintExample1 {
             try {
                 Thread.sleep(500);
             } catch (Exception e) {
-                System.out.println("e.getMessage() = " + e.getMessage());
             }
         }
     }
