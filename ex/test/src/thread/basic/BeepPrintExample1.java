@@ -1,4 +1,4 @@
-package thread;
+package thread.basic;
 
 import java.awt.Toolkit;
 
@@ -18,6 +18,7 @@ public class BeepPrintExample1 {
             try {
                 Thread.sleep(500);
             } catch (Exception e) {
+                System.out.println("e.getMessage() = " + e.getMessage());
             }
         }
     }
