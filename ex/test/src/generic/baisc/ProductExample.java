@@ -20,7 +20,7 @@ public class ProductExample {
 
         Car car = product2.getKind();
         String carModel = product2.getModel();
-        
+
         System.out.println("car = " + car);
         System.out.println("carModel = " + carModel);
 
