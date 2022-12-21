@@ -1,0 +1,7 @@
+로그아웃 구현할 차례
+
+
+https://developers.kakao.com/docs/latest/ko/kakaologin/rest-api#logout-of-service-and-kakaoaccount
+
+// https://kapi.kakao.com/v1/user/logout 경로를 통해 헤더에 Authorization: "Bearer {access_Token}"을 포함하여 요청하면
+// 로그아웃을 수행한 클라이언트의 아이디를 반환.
