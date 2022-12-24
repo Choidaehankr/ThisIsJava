@@ -24,4 +24,8 @@ public class Member {
     public int hashCode() {
         return name.hashCode() + age;
     }
+
+    public int getAge() {
+        return age;
+    }
 }
